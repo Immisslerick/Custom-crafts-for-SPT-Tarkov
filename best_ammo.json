@@ -1,0 +1,731 @@
+[
+    {
+        "_id": "Fast C4",
+        "areaType": 3,
+        "requirements": [
+            {
+                "templateId": "60391b0fb847c71012789415",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc78386f77449d825f9dc",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc87386f77449db3db94e",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "type": "Tool"
+            },
+            {
+                "areaType": 3,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "60391a8b3364dc22b04d0ce5",
+        "continuous": false,
+        "count": 4,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "OFZ shell",
+        "areaType": 3,
+        "requirements": [
+            {
+                "templateId": "590c5a7286f7747884343aea",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 4,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "type": "Tool"
+            },
+            {
+                "areaType": 3,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d0379a886f77420407aa271",
+        "continuous": false,
+        "count": 12,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+    
+    {
+        "_id": "Fast Kite",
+        "areaType": 3,
+        "requirements": [
+            {
+                "templateId": "56dff216d2720bbd668b4568",
+                "count": 240,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2b4386f77425357b6123",
+                "type": "Tool"
+            },
+            {
+                "areaType": 3,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "590c5a7286f7747884343aea",
+        "continuous": false,
+        "count": 12,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "Fast EAGLE",
+        "areaType": 3,
+        "requirements": [
+            {
+                "templateId": "58d3db5386f77426186285a0",
+                "count": 6,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "617aa4dd8166f034d57de9c5",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2d8786f774245b1f03f3",
+                "type": "Tool"
+            },
+            {
+                "areaType": 3,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d6fc78386f77449d825f9dc",
+        "continuous": false,
+        "count": 12,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "Fast HAWK",
+        "areaType": 3,
+        "requirements": [
+            {
+                "templateId": "590c5a7286f7747884343aea",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc78386f77449d825f9dc",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347b8b24597737dd42e192",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c2d8786f774245b1f03f3",
+                "type": "Tool"
+            },
+            {
+                "areaType": 3,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d6fc87386f77449db3db94e",
+        "continuous": false,
+        "count": 12,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "fast 5.56 m995",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "5d6fc78386f77449d825f9dc",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d0379a886f77420407aa271",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "60391a8b3364dc22b04d0ce5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e6920f86f77411d82aa167",
+                "count": 500,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "areaType": 10,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59e690b686f7746c9f75e848",
+        "continuous": false,
+        "count": 500,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+    
+    {
+        "_id": "FAST m.u.l.e.",
+        "areaType": 7,
+        "requirements": [
+            {
+                "templateId": "5c0e533786f7747fa23f4d47",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "544fb3f34bdc2d03748b456a",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5751435d24597720a27126d1",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b3a5d86f774252167ba22",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 7,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5ed51652f6c34d2cc26336a1",
+        "continuous": false,
+        "count": 10,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+    
+    {
+        "_id": "FAST Propital",
+        "areaType": 7,
+        "requirements": [
+            {
+                "templateId": "5af0548586f7743a532b7e99",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5751a89d24597722aa0e8db0",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b3a5d86f774252167ba22",
+                "count": 6,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 7,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c0e530286f7747fa1419862",
+        "continuous": false,
+        "count": 21,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST ETG",
+        "areaType": 7,
+        "requirements": [
+            {
+                "templateId": "5d1b3a5d86f774252167ba22",
+                "count": 4,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b3f2d86f774253763b735",
+                "count": 4,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5c0e530286f7747fa1419862",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e8f3423fd7471236e6e3b64",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 7,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c0e534186f7747fa1419867",
+        "continuous": false,
+        "count": 6,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST graphics card",
+        "areaType": 11,
+        "requirements": [
+            {
+                "templateId": "590c639286f774151567fa95",
+                "type": "Tool"
+            },
+            {
+                "templateId": "60391afc25aff57af81f7085",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590a3b0486f7743954552bdb",
+                "count": 10,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5734779624597737e04bf329",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "573477e124597737dd42e191",
+                "count": 10,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5c05300686f7746dce784e5d",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 11,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 3600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "57347ca924597744596b4e71",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST Virtex",
+        "areaType": 11,
+        "requirements": [
+            {
+                "templateId": "6389c92d52123d5dd17f8876",
+                "type": "Tool"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5d0376a486f7747d8050965c",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "573477e124597737dd42e191",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5c06782b86f77426df5407d2",
+                "count": 5,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 11,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 1200,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c05308086f7746b2101e90b",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST Military COFDM",
+        "areaType": 11,
+        "requirements": [
+            {
+                "templateId": "6389c92d52123d5dd17f8876",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c639286f774151567fa95",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5c1265fc86f7743f896a21c2",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5af0561e86f7745f5f3ad6ac",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d0376a486f7747d8050965c",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "6389c7750ef44505c87f5996",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 11,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 1200,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c052f6886f7746b1e3db148",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST Can of Hot Rod energy drink",
+        "areaType": 8,
+        "requirements": [
+            {
+                "templateId": "62a09e73af34e73a266d932a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5d1b385e86f774252167b98a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5d1b33a686f7742523398398",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e3577886f774176a362503",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5af0484c86f7740f02001f7f",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5bc9be8fd4351e00334cae6e",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 8,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 3600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5751496424597720a27126da",
+        "continuous": false,
+        "count": 40,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST LEDx",
+        "areaType": 7,
+        "requirements": [
+            {
+                "templateId": "6389c8fb46b54c634724d847",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "templateId": "5af0534a86f7743b6f354284",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590a391c86f774385a33c404",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5c052fb986f7746b2101e909",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5af0561e86f7745f5f3ad6ac",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "6389c7750ef44505c87f5996",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 7,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 3600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c0530ee86f774697952d952",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "fast 7.62 m993",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "590c5a7286f7747884343aea",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc78386f77449d825f9dc",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc87386f77449db3db94e",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e023e6e34d52a55c3304f71",
+                "count": 500,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "areaType": 10,
+                "requiredLevel": 2,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5efb0c1bd79ff02a1f5e68d9",
+        "continuous": false,
+        "count": 500,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    }
+]
