@@ -5,20 +5,20 @@
         "requirements": [
             {
                 "templateId": "60391b0fb847c71012789415",
-                "count": 1,
+                "count": 2,
                 "isFunctional": false,
                 "isEncoded": false,
                 "type": "Item"
             },
             {
-                "templateId": "5d6fc78386f77449d825f9dc",
-                "count": 1,
+                "templateId": "590c5a7286f7747884343aea",
+                "count": 2,
                 "isFunctional": false,
                 "isEncoded": false,
                 "type": "Item"
             },
             {
-                "templateId": "5d6fc87386f77449db3db94e",
+                "templateId": "59136f6f86f774447a1ed173",
                 "count": 1,
                 "isFunctional": false,
                 "isEncoded": false,
@@ -68,7 +68,7 @@
             },
             {
                 "areaType": 3,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -78,6 +78,40 @@
         "endProduct": "5d0379a886f77420407aa271",
         "continuous": false,
         "count": 12,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "The better Moonshine Craft",
+        "areaType": 19,
+        "requirements": [
+            {
+                "templateId": "5d1b33a686f7742523398398",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e3577886f774176a362503",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 19,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d1b376e86f774252519444e",
+        "continuous": false,
+        "count": 3,
         "productionLimitCount": 0,
         "isEncoded": false
     },
@@ -99,7 +133,7 @@
             },
             {
                 "areaType": 3,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -137,7 +171,7 @@
             },
             {
                 "areaType": 3,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -182,7 +216,7 @@
             },
             {
                 "areaType": 3,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -197,7 +231,7 @@
     },
 
     {
-        "_id": "fast 5.56 m995",
+        "_id": "fast 5.56x45mm m995",
         "areaType": 10,
         "requirements": [
             {
@@ -238,7 +272,7 @@
             },
             {
                 "areaType": 10,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -248,6 +282,163 @@
         "endProduct": "59e690b686f7746c9f75e848",
         "continuous": false,
         "count": 500,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "fast 7.62x39mm BP Ammo",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "5d6fc87386f77449db3db94e",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc78386f77449d825f9dc",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5656d7c34bdc2d9d198b4587",
+                "count": 500,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59e0d99486f7744a32234762",
+        "continuous": false,
+        "count": 500,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "fast 7.62x39mm MAIAP Ammo",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "5d6fc87386f77449db3db94e",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d6fc78386f77449d825f9dc",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "64b7af434b75259c590fa893",
+                "count": 500,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "544fb5454bdc2df8738b456a",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "601aa3d2b2bcb34913271e6d",
+        "continuous": false,
+        "count": 500,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "fast 5.56 m995",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "5d6fc78386f77449d825f9dc",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c5a7286f7747884343aea",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "60391a8b3364dc22b04d0ce5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c31c586f774245e3141b2",
+                "count": 4,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "56d59d3ad2720bdb418b4577",
+                "count": 400,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },            
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5efb0da7a29a85116f6ea05f",
+        "continuous": false,
+        "count": 400,
         "productionLimitCount": 0,
         "isEncoded": false
     },
@@ -286,7 +477,7 @@
             },
             {
                 "areaType": 7,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -295,7 +486,7 @@
         "locked": false,
         "endProduct": "5ed51652f6c34d2cc26336a1",
         "continuous": false,
-        "count": 10,
+        "count": 7,
         "productionLimitCount": 0,
         "isEncoded": false
     },
@@ -327,7 +518,7 @@
             },
             {
                 "areaType": 7,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -336,7 +527,137 @@
         "locked": false,
         "endProduct": "5c0e530286f7747fa1419862",
         "continuous": false,
-        "count": 21,
+        "count": 7,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST SJ6 endurance ",
+        "areaType": 7,
+        "requirements": [
+            {
+                "templateId": "5c0e531286f7747fa54205c2",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b3a5d86f774252167ba22",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e3606886f77417674759a5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "62a0a043cf4a99369e2624a5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 7,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c0e531d86f7747fa23f4d42",
+        "continuous": false,
+        "count": 7,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST 3btg strength mod ",
+        "areaType": 7,
+        "requirements": [
+            {
+                "templateId": "5c10c8fd86f7743d7d706df3",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d1b3a5d86f774252167ba22",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "59e3606886f77417674759a5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "62a0a043cf4a99369e2624a5",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "areaType": 7,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5ed515c8d380ab312177c0fa",
+        "continuous": false,
+        "count": 7,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST 5.56x45mm m855a1 money maker",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "59e6927d86f77411da468256",
+                "count": 500,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c5a7286f7747884343aea",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },          
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 300,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "54527ac44bdc2d36668b4567",
+        "continuous": false,
+        "count": 500,
         "productionLimitCount": 0,
         "isEncoded": false
     },
@@ -375,7 +696,7 @@
             },
             {
                 "areaType": 7,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -674,6 +995,528 @@
     },
 
     {
+        "_id": "FAST extended magazine case",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },           
+            {
+                "templateId": "5d1b371186f774253763a656",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 4,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c77245977448d35f6e2",
+                "count": 4,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },            
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c127c4486f7745625356c13",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended ammo case",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },           
+            {
+                "templateId": "57347c77245977448d35f6e2",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },    
+            {
+                "templateId": "57347c93245977448d35f6e3",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },         
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5aafbde786f774389d0cbc0f",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended key tool2.0",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },   
+            {
+                "templateId": "590c2b4386f77425357b6123",
+                "type": "Tool"
+            },        
+            {
+                "templateId": "57347c77245977448d35f6e2",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 4,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },    
+                     
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59fafd4b86f7745ca07e1232",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended dogtag case 2.0",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },   
+            {
+                "templateId": "590c2b4386f77425357b6123",
+                "type": "Tool"
+            },        
+            {
+                "templateId": "57347c77245977448d35f6e2",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }, 
+            {
+                "templateId": "5d1b371186f774253763a656",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },   
+                     
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c093e3486f77430cb02e593",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended documents case 2.0",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "61bf83814088ec1a363d7097",
+                "type": "Tool"
+            },                      
+            {
+                "templateId": "61c18db6dfd64163ea78fbb4",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af4a786f7746d3f3c3400",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af4a786f7746d3f3c3400",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }, 
+            {
+                "templateId": "5e2af4d286f7746d4159f07a",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },   
+                     
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "590c60fc86f77412b13fddcf",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended S.I.C.C. ORGANIZATIONAL POUCH 2.0",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "61bf83814088ec1a363d7097",
+                "type": "Tool"
+            },                      
+            {
+                "templateId": "61c18db6dfd64163ea78fbb4",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af4a786f7746d3f3c3400",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af4a786f7746d3f3c3400",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            }, 
+            {
+                "templateId": "5e2af4d286f7746d4159f07a",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },   
+                     
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d235bb686f77443f4331278",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended boom boom case",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },           
+            {
+                "templateId": "5d1b36a186f7742523398433",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c77245977448d35f6e2",
+                "count": 5,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 5,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },    
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 5,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },         
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5e2af55f86f7746d4159f07c",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended food case",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },  
+            {
+                "templateId": "590c2b4386f77425357b6123",
+                "type": "Tool"
+            },         
+            {
+                "templateId": "5d1b371186f774253763a656",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c77245977448d35f6e2",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },    
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },         
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5c093db286f7740a1b2617e3",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended money case",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },           
+            {
+                "templateId": "5d1b36a186f7742523398433",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c77245977448d35f6e2",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },    
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },         
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "59fb016586f7746d0d4b423a",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "FAST extended lucky scav case",
+        "areaType": 2,
+        "requirements": [
+            {
+                "templateId": "5d40419286f774318526545f",
+                "type": "Tool"
+            },           
+            {
+                "templateId": "5c127c4486f7745625356c13",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "57347c5b245977448d35f6e1",
+                "count": 6,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5e2af29386f7746d4159f077",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "61bf7b6302b3924be92fa8c3",
+                "count": 5,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },            
+            {
+                "areaType": 2,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5b7c710788a4506dec015957",
+        "continuous": false,
+        "count": 1,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
         "_id": "fast 7.62 m993",
         "areaType": 10,
         "requirements": [
@@ -715,7 +1558,7 @@
             },
             {
                 "areaType": 10,
-                "requiredLevel": 2,
+                "requiredLevel": 1,
                 "type": "Area"
             }
         ],
@@ -725,6 +1568,69 @@
         "endProduct": "5efb0c1bd79ff02a1f5e68d9",
         "continuous": false,
         "count": 500,
+        "productionLimitCount": 0,
+        "isEncoded": false
+    },
+
+    {
+        "_id": "fast F.L.I.R. 60hz thermal scope",
+        "areaType": 10,
+        "requirements": [
+            {
+                "templateId": "5d1b2ffd86f77425243e8d17",
+                "count": 3,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5d0377ce86f774186372f689",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5c05308086f7746b2101e90b",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "590c37d286f77443be3d7827",
+                "count": 2,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "5af0561e86f7745f5f3ad6ac",
+                "count": 1,
+                "isFunctional": false,
+                "isEncoded": false,
+                "type": "Item"
+            },
+            {
+                "templateId": "6389c8fb46b54c634724d847",
+                "type": "Tool"
+            },
+            {
+                "templateId": "590c2e1186f77425357b6124",
+                "type": "Tool"
+            },
+            {
+                "areaType": 10,
+                "requiredLevel": 1,
+                "type": "Area"
+            }
+        ],
+        "productionTime": 600,
+        "needFuelForAllProductionTime": false,
+        "locked": false,
+        "endProduct": "5d1b5e94d7ad1a2b865a96b0",
+        "continuous": false,
+        "count": 1,
         "productionLimitCount": 0,
         "isEncoded": false
     }
